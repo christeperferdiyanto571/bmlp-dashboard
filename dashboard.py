@@ -413,7 +413,7 @@ with tab4:
         display_df = display_df[mask]
 
     st.dataframe(
-        display_df.head(n_rows).style.background_gradient(cmap="Blues"),
+        display_df.head(n_rows),
         use_container_width=True,
         height=400
     )
